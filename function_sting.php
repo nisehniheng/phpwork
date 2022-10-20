@@ -1,0 +1,22 @@
+<?php
+
+    $name = "gnehin hesin";
+    echo strlen($name);
+    echo "<br>";
+    $word = "I Love you";
+    echo str_word_count($word);
+    echo "<br>";
+    echo strrev($name);
+    echo "<br>";
+    echo strpos($word,"love");
+    echo "<br>";
+    echo str_repeat("love","hate",$word);
+    echo strtoupper($word);
+    echo "<br>";
+    echo strtolower( $name);
+    echo "<br>";
+    echo substr($word,-3);
+    echo "<br>";
+    echo substr($word,+2,-4);
+
+?>
