@@ -10,7 +10,8 @@
     echo "<br>";
     echo strpos($word,"love");
     echo "<br>";
-    echo str_repeat("love","hate",$word);
+    echo str_replace("love","hate",$word);
+    echo "<br>";
     echo strtoupper($word);
     echo "<br>";
     echo strtolower( $name);
