@@ -22,6 +22,4 @@ $maths = 2e10;
 $famale = true;
 $male = false;
 
-echo $maths;
-
 ?>
